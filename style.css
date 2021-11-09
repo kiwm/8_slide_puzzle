@@ -10,16 +10,30 @@
 .container {
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
     padding-right: 20%;
     padding-left: 20%;
 }
 
 .container div {
-
-    flex: 1 0 26%; 
+    width: 150px;
+    height: 150px;
     margin: 5px;
-    height: 120px;
-    background-color: blue;    
+      
+}
+
+.container div div {
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.container div div:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.bloco9 {
+    display: none;
 }
 
